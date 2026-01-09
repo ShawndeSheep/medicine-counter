@@ -1,2 +1,14 @@
 Flask==3.0.0
 Werkzeug==3.0.1
+dotenv
+# Install Transformers from Git with Torch extra (SAM3 support)
+transformers[torch] @ git+https://github.com/huggingface/transformers.git
+tokenizers>=0.22.0
+huggingface_hub
+torchvision 
+torch
+numpy
+matplotlib
+Pillow
+hdbscan
+umap-learn
